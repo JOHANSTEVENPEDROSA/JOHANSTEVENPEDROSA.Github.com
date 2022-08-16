@@ -1,0 +1,66 @@
+/*
+Paleta de Colores
+Morado:#A66CFF
+*/
+*{
+    font-family: 'DynaPuff', cursive;
+}
+.container{
+    background: #06beb6; 
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6); 
+    background: linear-gradient(to right, #48b1bf, #06beb6); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color:#A66CFF;
+}
+.title{
+    text-transform: uppercase;
+}
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: #E9DAC1;
+}
+.fa-star{
+    color:#ffc400;
+}
+.action{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+.close{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #06beb6;
+    display:inline-block ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
