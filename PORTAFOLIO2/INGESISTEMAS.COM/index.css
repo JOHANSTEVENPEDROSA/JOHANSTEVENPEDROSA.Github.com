@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;/* Quitar margenes y rellenos de los navegadores */
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%; /* Ocupe el 100% de la pagina */
+    background: #610C63;
+    text-align: center;
+    position: fixed;/* Menu Fijo */
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display:inline-block; /* Poner las opciones al lado del otro */
+    padding: 20px;
+    transition: all .3s ease;
+}
+.menu ul li:hover{
+   transform: scale(1.2);
+   background: #EE81B3;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;   
+}
+.Portada{
+    background: url('Medios/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    background-color: rgb(0,0,0,0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+    text-align: center;
+}
+.Logo h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.Logo h3{
+    color: white;
+    font-size: 30px;
+}
+.color-acento{
+    color: #610C63;
+}
+.barra{
+    height: 30px;
+    background-color: #610C63;
+}
+.Informacion{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.Que{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+.Que p{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    background-color: #610C63;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+a:hover{
+    background-color: #EE81B3;
+}
+.Estudiar{
+    background-image: url('Medios/Fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-color: rgb(0,0,0,0.5);
+    background-blend-mode: darken;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly   ;
+
+}
+.Curso{
+    border: 2px solid #610C63;
+    background-color: white;
+    margin: 16px;
+    height: 400px;
+    width: 285px;
+    text-align: center;
+}
+.Curso h1{
+    padding: 6px;
+    background-color: #610C63;
+    color: white;
+}
+.Curso img{
+    margin: 2px;
+    display: block;
+    width: 281px;
+    height: 250px;
+}
+footer{
+    height: 150px;
+    background-color: #1B2430;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Final h3{
+    color: white;
+}

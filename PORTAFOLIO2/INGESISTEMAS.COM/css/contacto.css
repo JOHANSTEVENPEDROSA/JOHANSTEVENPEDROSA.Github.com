@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;/* Quitar margenes y rellenos de los navegadores */
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%; /* Ocupe el 100% de la pagina */
+    background: #610C63;
+    text-align: center;
+    position: fixed;/* Menu Fijo */
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display:inline-block; /* Poner las opciones al lado del otro */
+    padding: 20px;
+    transition: all .3s ease;
+}
+.menu ul li:hover{
+   transform: scale(1.2);
+   background: #EE81B3;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;   
+}
+a{
+    text-decoration: none;
+    background-color: #610C63;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.Fondo{
+    background: url('/INGESISTEMAS.COM/Medios/morado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+}
+.Autor{
+    background-color: #610C63;
+    overflow: hidden;
+    padding: 50px 5px 50px 5px;
+}
+.Autor img{
+    height: 200px;
+    width: 200px;
+    border-radius: 120px;
+    border:7px solid #610C63;
+}
+.Autor h1{
+    text-align: center;
+    color: white;
+}
+
+a:hover{
+    background-color: #EE81B3;
+}
+footer{
+    height: 150px;
+    background-color: #1B2430;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Final h3{
+    color: white;
+}
+#a1{
+    background-color: rgb(72, 72, 170);
+    margin-right: 5px;
+}
+#a1:hover{
+    background-color: rgb(69, 69, 107);
+}
+#a2{
+    background-color: rgb(236, 72, 22);
+    margin-right: 5px;
+}
+#a2:hover{
+    background-color: rgb(196, 79, 44);
+}
+#a3{
+    background-color: rgb(226, 45, 39);
+    margin-right: 5px;
+}
+#a3:hover{
+    background-color:rgb(201, 60, 55);
+}
+.v1{
+    height: 220px;
+    width: 400px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+}
