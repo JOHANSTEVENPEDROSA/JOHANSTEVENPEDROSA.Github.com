@@ -22,6 +22,7 @@ Morado:#A66CFF
     background-color: #fff;
     border-radius: 4px;
     position: relative;
+    padding:1.8em;
 }
 a{
     text-decoration: none;
@@ -29,6 +30,7 @@ a{
 }
 .title{
     text-transform: uppercase;
+    text-align: center;
 }
 .paragraph{
     line-height: 1.8em;

@@ -55,6 +55,11 @@ body{
     border:2px solid #dd1818 ;
     padding:5px;
 }
+#Foto:hover{
+    width: 220px;
+    height:270px;
+    border:2px solid #000 ;
+}
 .datos-foto{
     width: 350px;
     height: 330px;
@@ -85,4 +90,8 @@ body{
     height:50px;
     margin:5px;
     
+}
+.habilidades img:hover{
+    width:70px;
+    height:70px;
 }
